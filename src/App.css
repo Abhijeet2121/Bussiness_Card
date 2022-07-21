@@ -1,38 +1,76 @@
+body{
+  background-color: #282c34;
+}
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 20px 0px;
+  }
+
+.Card--container{
+  width:320px;
+  height: 800px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:#1A1B21;
+  border:4px solid white;
+  border-radius: 9px;
 }
 
-.App-link {
-  color: #61dafb;
+.Author-img{
+  width: 200px;
+  margin: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Author--titel{
+  font-family: Inter;
+  font-weight: 700px;
+  font-size: 25px;
+  line-height: 10px;
+  text-align: center;
+}
+
+.Author--job{
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 18px;
+  color:#F3BF99;
+}
+
+.Contact--btn{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.hero{
+  margin-bottom: 10px;
+}
+
+.Section--info{
+  text-align: left;
+}
+
+.About-text{
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.Footer--conatiner{
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  gap: 25px;
+  width: 100%;
+}
+
+.Footer--icon{
+  height: 30px;
 }
