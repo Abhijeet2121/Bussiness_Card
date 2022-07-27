@@ -1,4 +1,4 @@
-export default [
+const data = [
     {
         id: 1,
         titel: "Abhijeet Kumbhar",
@@ -6,3 +6,5 @@ export default [
         coverImg: "author.jpeg",
     }
 ]
+
+export default data
